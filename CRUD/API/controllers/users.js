@@ -7,9 +7,5 @@ export const getUsers = (_, res) =>{
         if (err) return res.json(err);
 
         return res.status(200).json(data);
-
-    
-    
-
     });
 };
